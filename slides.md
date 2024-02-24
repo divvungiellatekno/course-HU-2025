@@ -961,6 +961,23 @@ Generated transcript:
 layout: section
 ---
 
+# Large language models, AI and minority languages
+
+- data scarcity
+- lack of community involvement
+- speech technology
+- hybrid systems
+
+---
+
+# Data scarcity
+
+Øaslkdfj
+
+---
+layout: section
+---
+
 # Ownership
 
 - data ownership
