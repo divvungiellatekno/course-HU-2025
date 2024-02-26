@@ -279,7 +279,7 @@ Typically, minority languages share a number of characteristics:
 * few or non-existing digital resources
 * restricted availability of dictionaries and grammars, or none at all
 * often complex morphology or morphophonology or both
-* consider: ML technology needs
+    * compare with ML technology needs
 
 </v-clicks>
 
@@ -314,10 +314,12 @@ Language technology comes in several flavours:
 
 <v-clicks>
 
-* rule-based
-* statistical
-* stochastic
-* neural nets
+* explicit knowledge:
+    * rule-based
+* implicit knowledge — machine learning:
+    * statistical
+    * stochastic
+    * neural nets
 
 </v-clicks>
 
