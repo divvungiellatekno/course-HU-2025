@@ -970,6 +970,8 @@ layout: section
 
 # Large language models, AI and minority languages
 
+XXX
+
 - data scarcity
 - lack of community involvement
 - speech technology
@@ -1085,8 +1087,9 @@ Examples:
 Ideas for solutions:
 
 * regulations
-* split language independent underlying code from language servicdes
+* split language independent underlying code from language services
 * make the linguistic parts (all parts!) of a system belong to the language community
+* We need a parallel to Open Source: **Open Language**
 
 </v-click>
 
