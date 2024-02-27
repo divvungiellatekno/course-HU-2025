@@ -681,6 +681,8 @@ The end result looks like this:
 <img src="/sme-keyboard-speller.jpeg" class="m-10 h-90 rounded shadow" />
 
 ---
+layout: two-cols
+---
 
 ### It has a dark mode
 
@@ -688,6 +690,10 @@ The end result looks like this:
 
 The speller is exactly the same fst-based speller as described below
 - … with slight adaptions of the error model to cover mis-hits based on the keyboard layout
+
+::right::
+
+<img src="/IPad-tastatur.jpeg.png" class="m-10 h-80 rounded shadow" />
 
 ---
 layout: two-cols
