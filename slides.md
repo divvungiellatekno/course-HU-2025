@@ -410,14 +410,14 @@ The templating system and the split between language independent and specific co
 ├── docs
 ├── src
 │   ├── cg3
-│   ├── filters
-│   ├── fst
-│   ├── hyphenation
-│   ├── orthography
-│   ├── phonetics
-│   ├── scripts
-│   ├── tagsets
-│   └── transcriptions
+│   └── fst
+│       ├── filters
+│       ├── morphology
+│       ├── orthography
+│       ├── phonetics
+│       ├── syllabification
+│       ├── tagsets
+│       └── transcriptions
 ├── test
 │   ├── data
 │   ├── src
@@ -429,10 +429,9 @@ The templating system and the split between language independent and specific co
     ├── mt
     ├── shellscripts
     ├── spellcheckers
-    └── tokenisers
+    ├── tokenisers
+    └── tts
 ```
-
-<!-- We are working on improving the directory structure and file organisation. -->
 
 ---
 
@@ -829,7 +828,7 @@ layout: center
 * MS Word (web-based add-on)
 * GoogleDocs (web-based add-on)
 
-Planned support:
+Under development (release this summer):
 * macOS (system wide), possibly Windows
 * LibreOffice
 * regular MS Office grammar checker for Windows and macOS
