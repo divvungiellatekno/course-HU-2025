@@ -1107,6 +1107,29 @@ Literal back-translation from South Sámi to English:
     - no-one asks: "what does the community want or need?"
 
 ---
+
+## Speech technology
+
+<br/>
+<br/>
+
+- speech tech is a positive use case for AI
+- both synthesis and recognition works surprisingly well
+- can be used as part of larger systems
+
+---
+
+## Hybrid systems
+
+<br/>
+<br/>
+
+- speech synthesis: rule-based text processing, ML synthesis
+- speech recognition: ML recognition, rule-based post-processing (not tested yet)
+- MT: rule-based MT (minority to majority), ML post-processing
+    - very promisig results in first tests
+
+---
 layout: section
 ---
 
