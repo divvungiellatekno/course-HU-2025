@@ -1184,7 +1184,7 @@ The best solution is to ensure that everything is **open source**. All resources
 * solution: develop or use open source technology:
     * HFST (spellers, morphological analysers, etc)
     * speech technology
-* a major part of our technology stack is nowadays under our controll
+* a major part of our technology stack is nowadays under our control
     * see [github.com/divvun](https://github.com/divvun)
 
 </v-clicks>
@@ -1268,7 +1268,7 @@ layout: two-cols
 <br/>
 
 - data and technology ownership mostly ok
-- platform ownership and access controll a major problem
+- platform ownership and access control a major problem
 
 ---
 class: ‘text-center’
