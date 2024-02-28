@@ -702,12 +702,17 @@ layout: two-cols
 
 <img src="/sme-keyboard-speller-dark.jpeg" class="m-10 h-80 rounded shadow" />
 
-The speller is exactly the same fst-based speller as described below
-- … with slight adaptions of the error model to cover mis-hits based on the keyboard layout
+The speller is exactly the same fst-based speller as described below — with slight adaptions to cover mis-hits based on the keyboard layout
 
 ::right::
 
+<v-click>
+
+Lately: cooperation with Apple to develop OS-integrated keyboards for all Sámi languages:
+
 <img src="/IPad-tastatur.jpeg.png" class="m-10 h-80 rounded shadow" />
+
+</v-click>
 
 ---
 layout: two-cols
@@ -863,9 +868,9 @@ Under development (release this summer):
 
 ---
 
-### Screen shot from MS Word (web version):
+### Screen shot from MS Word:
 
-![Grammar checker](/Word-gram.png)
+<img src="/Word-gram.png" class="h-120 rounded " />
 
 <!--
 ### Screen shot from online grammar checker:
@@ -896,7 +901,7 @@ layout: two-cols
 
 <div v-after>
 
-Test sample, North Sámi, 5h recordings:
+North Sámi Male, 5h recordings:
 
 > Lea maid dehálaš ahte juohkehaš beassá ieš mearridit maid hupmá, go buohkat eai soaitte háliidit hupmat dan birra, ja dan galgá maid dohkkehit, lohká son.
 
@@ -911,7 +916,7 @@ Test sample, North Sámi, 5h recordings:
 
 <div v-after>
 
-Test sample, old closed-source synthesis:
+North Sámi female, old closed-source synthesis:
 
 > Sámediggi lea Suoma sápmelaččaid alimus politihkalaš orgána, mii ovddasta sápmelaččaid sihke riikkadási ja riikkaidgaskasaš oktavuođain.
 
@@ -927,7 +932,7 @@ Same text with new, ML-based synthesis, ca 10 hours:
   <p>Your browser does not support the audio element.</p>
 </audio>
 
-And finally, SMJ synthesis sample:
+And finally, Lule Sámi synthesis sample:
 
 > – Dálla gå dáhtámasjijnaj giella ållåsit sijdajda tjágŋá, de sijda julevsámegielak ariednán aj ájteduvvi.
 
@@ -1064,6 +1069,8 @@ layout: two-cols
 <br/>
 <br/>
 
+<v-clicks>
+
 - ChatGPT
 - Google Translate
 - [Tartu NLP/Neurotõlge](https://neurotolge.ee)
@@ -1076,7 +1083,11 @@ Our experience:
 
 Example (from Wiechetek et al, forthcoming: _The Ethical Question – Use of Indigenous Corpora for Large Language Models_):
 
+</v-clicks>
+
 ::right::
+
+<div v-after>
 
 English original:
 
@@ -1089,6 +1100,8 @@ South Sámi output:
 Literal back-translation from South Sámi to English:
 
 > Hundred indigenous __people's__ and environmental __campaigns__ have __one main-haerniem__ in Oslo to __wind-blowing__, which __tear__ two __wind powers__, __to which__ the Norwegian government __has called "to offend to__ human rights".
+
+</div>
 
 ---
 
@@ -1130,6 +1143,7 @@ Literal back-translation from South Sámi to English:
 - speech tech is a positive use case for AI
 - both synthesis and recognition works surprisingly well
 - can be used as part of larger systems
+- should be useful parts of language learning and revitalisation efforts
 
 ---
 
