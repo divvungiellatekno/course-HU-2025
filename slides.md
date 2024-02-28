@@ -1031,12 +1031,50 @@ layout: section
 
 # Large language models, AI and minority languages
 
-XXX
+<br/>
+<br/>
 
+- large language models
 - data scarcity
 - lack of community involvement
 - speech technology
 - hybrid systems
+
+---
+layout: two-cols
+---
+
+## Large language models
+
+
+<br/>
+<br/>
+
+- ChatGPT
+- Google Translate
+- [Tartu NLP/Neurotõlge](https://neurotolge.ee)
+
+Our experience:
+
+- bad at low-resource languages
+- the less data the worse output
+- and of course the other way as well
+
+Example (from Wiechetek et al, forthcoming: _The Ethical Question – Use of Indigenous Corpora for Large Language Models_):
+
+::right::
+
+English original:
+
+> Hundreds of Indigenous and environmental campaigners have blocked a mai thoroughfare in Oslo to demand the demolition of two windfarms that have been described by the Norwegian government as a «violation of human rights».
+
+South Sámi output:
+
+> Tjuetie *aalkoealmetji jïh *byjresekampanjh leah *aktem *åejviehaerniem *Oslosne *biegkemeurhkedh, juktie *rïjvestidh göökte *bïegkefaamoeh, *mejtie nöörjen reerenasse lea *gohtjeme "*almetjereaktide *mïedtelidh".
+
+Literal back-translation from South Sámi to English:
+
+> Hundred indigenous __people's__ and environmental __campaigns__ have __one main-haerniem__ in Oslo to __wind-blowing__, which __tear__ two __wind powers__, __to which__ the Norwegian government __has called "to offend to__ human rights".
 
 ---
 
