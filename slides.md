@@ -910,14 +910,14 @@ Test sample, old closed-source synthesis:
 > Sámediggi lea Suoma sápmelaččaid alimus politihkalaš orgána, mii ovddasta sápmelaččaid sihke riikkadási ja riikkaidgaskasaš oktavuođain.
 
 <audio controls="controls">
-  <source type="audio/wav" src="/5_Sámediggi_acapela-test-sentences-1-yle-4418.wav"/>
+  <source type="audio/wav" src="/5_Samediggi_acapela-test-sentences-1-yle-4418.wav"/>
   <p>Your browser does not support the audio element.</p>
 </audio>
 
 Same text with new, ML-based synthesis, ca 10 hours:
 
 <audio controls="controls">
-  <source type="audio/wav" src="/5_Sámediggi_FP_F_470univnet_spkr2-4371.wav"/>
+  <source type="audio/wav" src="/5_Samediggi_FP_F_470univnet_spkr2-4371.wav"/>
   <p>Your browser does not support the audio element.</p>
 </audio>
 
