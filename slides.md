@@ -1301,6 +1301,7 @@ Everything easily accessible in GitHub, everyone can edit and contribute.
 <br/>
 
 - Divvun tools & download: [divvun.no](https://divvun.no/) & [divvun.org](https://divvun.org/)
+- NEW: Nordic language tool site: [borealium.org](https://borealium.org/)
 - Language resources & source code: [github.com/giellalt](https://github.com/giellalt/)
 - Tool source code: [github.com/divvun](https://github.com/divvun/)
 - Korp:  [gtweb.uit.no/korp/](http://gtweb.uit.no/korp/)
