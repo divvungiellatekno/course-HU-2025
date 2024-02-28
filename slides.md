@@ -1078,9 +1078,33 @@ Literal back-translation from South Sámi to English:
 
 ---
 
-# Data scarcity
+## Data scarcity
 
-Øaslkdfj
+<br/>
+<br/>
+
+- core of LLM issue with low-resource languages
+- can't easily be resolved:
+    - Norwegian NB model is built on 20 billion words
+    - the Sámi community that produces most text pr person is Inari Sámi
+    - with current population: write for ≈10k years to reach 20b words!
+- the field is developing all the time
+- but data scarcity will always be an issue
+- most problematic: no QA on output, no consideration for unintended consequences
+
+---
+
+## Lack of community involvement
+
+<br/>
+<br/>
+
+- LLM builders have no connection to the language communities
+- scrape the Internet, take whatever they find, releases the LLM
+- community view:
+    - LLM is producing bad language, or directly wrong text
+    - generated texts replicate stereotypes
+    - no-one asks: "what does the community want or need?"
 
 ---
 layout: section
