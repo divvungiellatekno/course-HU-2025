@@ -926,7 +926,7 @@ And finally, SMJ synthesis sample:
 > – Dálla gå dáhtámasjijnaj giella ållåsit sijdajda tjágŋá, de sijda julevsámegielak ariednán aj ájteduvvi.
 
 <audio controls="controls">
-  <source type="audio/wav" src="/1_Dálla_FP_660univnet-4416.wav"/>
+  <source type="audio/wav" src="/1_Dalla_FP_660univnet-4416.wav"/>
   <p>Your browser does not support the audio element.</p>
 </audio>
 
