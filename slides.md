@@ -132,6 +132,10 @@ Av <a href="//commons.wikimedia.org/wiki/User:Berig" title="User:Berig">Berig</a
 >
 > <br/>
 >
+> ᛏᛆᚿ ᛆᚢᚴ ᚼᚢᛌᚴᛆᚱᛚ ᛭ ᛆᚢᚴ ᛌᚢᛆᚿ ᛭ ᛆᚢᚴ ᚼᚢᛚᛘᚠᚱᛁᚦᚱ ᛭ ᚦᛆᚢᚿ (ᛘᛁᚦ)ᚴᛁᚿ ᛚᚴᛏᚢ ᚱᛁᛏᛆ ᛋᛏᛁᚿ ᚦᛁᚿᚮ ᛭ ᛆᚠᛏᛁᚱ ᚼᛆᛚᚠᛏᛆᚿ ᛭ ᚠᛆ(ᚦ)ᚢᚱ ᚦᛆᛁᚱᛆ ᛏᛆᚿᛋ ' ᛆᚢᚴ ᚼᚢᛘ(ᚠ)ᚱᛁᚦᚱ ᛆᛏ ᛒᚢᛆᚿᛏᛆ ᛋᛁᚿ
+>
+> <br/>
+>
 > tan auk hus(k)arl + auk suain + auk hulmfriþr × þaun (m)(i)(þ)kin litu rita stin þino × aftiʀ halftan + fa(þ)ur þaiʀa tans ' auk hum(f)riþr at buanta sin
 >
 > <br/>
