@@ -864,11 +864,10 @@ Under development (release this summer):
 -->
 
 ---
+layout: two-cols
+---
 
 ## Text-to-speech (TTS)
-
-<br/>
-<br/>
 
 <v-clicks>
 
@@ -894,16 +893,47 @@ Test sample, North Sámi, 5h recordings:
 
 </div>
 
+::right::
+
+<div v-after>
+
+Test sample, old closed-source synthesis:
+
+> Sámediggi lea Suoma sápmelaččaid alimus politihkalaš orgána, mii ovddasta sápmelaččaid sihke riikkadási ja riikkaidgaskasaš oktavuođain.
+
+<audio controls="controls">
+  <source type="audio/wav" src="/5_Sámediggi_acapela-test-sentences-1-yle-4418.wav"/>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+
+Same text with new, ML-based synthesis, ca 10 hours:
+
+<audio controls="controls">
+  <source type="audio/wav" src="/5_Sámediggi_FP_F_470univnet_spkr2-4371.wav"/>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+
+And finally, SMJ synthesis sample:
+
+> – Dálla gå dáhtámasjijnaj giella ållåsit sijdajda tjágŋá, de sijda julevsámegielak ariednán aj ájteduvvi.
+
+<audio controls="controls">
+  <source type="audio/wav" src="/1_Dálla_FP_660univnet-4416.wav"/>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+
+</div>
+
 ---
 layout: two-cols
 ---
 
-## Automatic speech recognition (ASR)
+## Automatic speech recognition (ASR) - North Sámi
 
 <br/>
 <br/>
 
-* experiments w/ only 35 hours of transcribed speech
+* experiments w/ only 35 (50?) hours of transcribed speech
 * Whisper model
 * very promising, given the starting point
 * first target use:
@@ -911,21 +941,52 @@ layout: two-cols
 
 ::right::
 
-### Example
+### Example (from Norw. Sámi Parliament discussions)
 
-> Ja de bosui davvebiegga nu garrasit go sáhtii, muhto mađi eanet son bosui, dađi čavgadeappot vánddardeaddji giesai jáhka iežas birra. De beaivváš báitigođii hui lieggasit, nu lieggasit ahte vánddardeaddji ovttatmanos nuolai jáhka. Ja nie šattai davvebiegga mieđihit ahte beaivváš lei sudnos gievrrat.
+> ja Norgga sámit riikkasearvvis mun maiddái geahčen dien ee dien ee total reanskkaskáhpa ja oidnen dan ahte ođđamárket diet buolbmát várggáid dá Várjjat guovllus
 
 <audio controls="controls">
-  <source type="audio/wav" src="/referansa.wav"/>
+  <source type="audio/wav" src="/80_99_north_s_00_001-4499.wav"/>
   <p>Your browser does not support the audio element.</p>
 </audio>
 
 Generated transcript:
 
-> ja de bosui davvebiegga nu garrasit go sáhtii muhto __mađe eanas__ son bosui dađi čávgadeappot vánddardeaddji __geasái__ jahka iežas birra De beaivváš __báikegođii__ hui __lieggasiid__ nu lieggasiid ahte vánddardeaddji __ovttatmánus__ nuolai __jahka__ ja nie šattai davvebiegga __međihit__ ahte beaivváš lei __sutnos kievrrat__
+> Ja Norgga __Sámiid__ Riikkasearvvis. __Eh__ mun maiddái __gehččen__ dien eh dien __dien__ eh __[totalregnskap]__ ja oidnen dan ahte __ovdamearkka__ __dihte__ Buolbmát Várggáid __dahje__ Várjjat guovllus
 
 - Errors are bold-faced
-- punctuation is lost
+- upper/lower case errors are not marked
+
+---
+layout: two-cols
+---
+
+## Automatic speech recognition (ASR) - Lule Sámi
+
+<br/>
+<br/>
+
+* experiments w/ just 20+ hours of transcribed speech
+* also Whisper model
+* surprisingly good
+
+::right::
+
+### Example (from Norw. public broadcaster NRK)
+
+> Ja mån lav badjánam jåhkå gasska tjielden danna muv mánnávuohta ja muv nuorravuohta årrum.
+
+<audio controls="controls">
+  <source type="audio/wav" src="/NRK_Dan_i_diede_jus_i_gatjada_Dalla_ja_dalloj_OF1_002-4726.wav"/>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+
+Generated transcript:
+
+> Ja mån lav badjánam __Jåhkågasska__ tjielden, danna __l__ muv mánnávuohta ja muv nuorravuohta årrum.
+
+- Errors are bold-faced
+- upper/lower case errors are not marked
 
 ---
 
