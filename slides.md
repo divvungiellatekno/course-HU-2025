@@ -132,6 +132,14 @@ Av <a href="//commons.wikimedia.org/wiki/User:Berig" title="User:Berig">Berig</a
 >
 > <br/>
 >
+> tan auk hus(k)arl + auk suain + auk hulmfriþr × þaun (m)(i)(þ)kin litu rita stin þino × aftiʀ halftan + fa(þ)ur þaiʀa tans ' auk hum(f)riþr at buanta sin
+>
+> <br/>
+>
+> Dan ok Huskarl ok Svæinn ok Holmfriðr, þaun møðgin letu retta stæin þenna æftiʀ Halfdan, faður þæiʀa Dans, ok Holmfriðr at boanda sinn.
+>
+> <br/>
+>
 > «Dan och Húskarl och Sveinn och Holmfríð, modern och (hennes) söner, uppförde denna sten till minne av Halfdan, fadern till Dan och hans bröder; och Holmfríð till minne av sin man»
 
 ---
