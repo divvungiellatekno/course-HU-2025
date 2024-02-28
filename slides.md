@@ -301,6 +301,8 @@ That is, the dominating language technology paradigm — machine learning & neur
 
 Especially since normativity and language care and support is typically much more central to minorities.
 
+But more on that later, and on what it can offer.
+
 </v-clicks>
 
 ---
@@ -320,7 +322,7 @@ E.g. in the GiellaLT infrastructure, we have standardised conventions that makes
 
 ---
 
-## Mainly rule-based
+## GiellaLT: Mainly rule-based
 
 Language technology comes in several flavours:
 
