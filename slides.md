@@ -196,7 +196,7 @@ layout: two-cols
 The term language technology is restricted to actual processing of language
 data — be it speech or text or video (as when processing signed languages).
 
-The ultimate dream of language technology is speech-to-speech machine translation<br/>
+The ultimate dream of language technology has been speech-to-speech machine translation
 of unrestricted language:
 
 <a href="https://poetsandquants.com/2014/07/02/when-translators-make-sense-for-applicants/">
@@ -209,20 +209,16 @@ Image source
 
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
-— Or maybe a speaking ChatGPT bot?
+— Or a talking and swearing bot?
 
 <a href="https://www.springboard.com/blog/news/chatgpt-revolution/">
 <img src="/openai-chatgpt.png" class="h-75 rounded shadow" />
 <br/>
 Image source
 </a>
+
+We are here now!
 
 ---
 
@@ -943,32 +939,34 @@ layout: two-cols
 
 ## TTS (continued)
 
-<br/>
-<br/>
-
 Lule Sámi synthesis sample:
 
 > – Dálla gå dáhtámasjijnaj giella ållåsit sijdajda tjágŋá, de sijda julevsámegielak ariednán aj ájteduvvi.
 
-<audio controls="controls">
-  <source type="audio/wav" src="/1_Dalla_FP_660univnet-4416.wav"/>
-  <p>Your browser does not support the audio element.</p>
-</audio>
-
 South Sámi synthesis sample:
 
-> – Dálla gå dáhtámasjijnaj giella ållåsit sijdajda tjágŋá, de sijda julevsámegielak ariednán aj ájteduvvi.
-
-<audio controls="controls">
-  <source type="audio/wav" src="/1_Dalla_FP_660univnet-4416.wav"/>
-  <p>Your browser does not support the audio element.</p>
-</audio>
+> Buerie aerede gaajhkesh dovnesh jïh buerie båeteme dan bæjhkoehtæmman. Daenbien, golken asken 31. biejjien, mijjieh Divvun diekie guessine båateme Sïjti Jarngese, åarjelsaemien gïelesynteesem dijjide vuesiehtidh.  ​
+>
+> Soptsestimmiesynteese lea dïrrege mij tekstide tjamhki låhka. Dïhte tekstem soptsestæmman dorje, jïh nimhtie almetjh maehtieh tekstide golteldidh mejtie åarjelsaemiengïelesne tjaalasovveme.   ​
+>
+> Divvunen bieleste libie dan aavosne åadtjodh dam dijjide vuesiehtidh. Sïjhtijibie dellie vuesiehtidh guktie maahta dam dorjeldhgïelem åtnose vaeltedh, mïsse maahta aevhkine sjïdtedh jïh guktie libie buektiehtamme dam darjodh.
 
 ::right::
 
-<br/>
-<br/>
-<br/>
+Lule:
+
+<audio controls="controls">
+  <source type="audio/wav" src="/1_Dalla_FP_660univnet-4416.wav"/>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+
+South:
+
+<audio controls="controls">
+  <source type="audio/wav" src="/FULL_Intro_SMA_TTS_HATTFJELLDAL.wav"/>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+
 <br/>
 <br/>
 
@@ -976,7 +974,7 @@ South Sámi synthesis sample:
 
 - South Sámi developed based on 30 years old archive recordings from the Norwegian national broadcaster
 - recordings cleaned etc by us
-- released at the end of October, when the speaker would have turned 100 years old
+- released at the end of October 2024, when the speaker would have turned 100 years old
 - voice development and release was supported and encouraged by her sons
 
 </v-clicks>
@@ -1092,11 +1090,15 @@ layout: section
 <br/>
 <br/>
 
-- large language models
-- data scarcity
-- lack of community involvement
-- speech technology
-- hybrid systems
+Large language models
+
+Data scarcity
+
+Lack of community involvement
+
+Speech technology
+
+Hybrid systems
 
 ---
 layout: two-cols
@@ -1205,9 +1207,11 @@ layout: section
 
 # Ownership
 
-- data ownership
-- technology ownership
-- platform ownership
+Data ownership
+
+Technology ownership
+
+Platform ownership
 
 ---
 
