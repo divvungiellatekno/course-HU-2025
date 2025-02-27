@@ -387,9 +387,10 @@ layout: section
 * scalability in two dimensions: languages x tools/products
 * standardised dir & file structure
 * encourages and facilitates international cooperation
-* ~140 languages in our infra (at various stages), 30+ in active development
+* ~150 languages in our infra (at various stages), 30+ in active development
     * almost all of them minority languages
     * majority language grammars and LT resources mainly to support the minority languages
+      (but we do not exclude anyone)
 
 </v-clicks>
 
@@ -476,7 +477,7 @@ layout: section
 <br/>
 <br/>
 
-* **morphology / morphophonology:** Hfst / Foma / Xerox
+* **morphology / morphophonology:** Hfst / Foma / (Xerox)
     * lexc
     * twolc
     * xfst rewrite rules
@@ -595,13 +596,13 @@ Both TwolC and Xfst rewrite rules are supported by the GiellaLT infrastructure, 
 
 <v-clicks>
 
-Hfst only, this formalism is an extension of the xfst rewrite rules, and are a reimplementation of work by Xerox around 10 years ago. It allows for more complex text processing, and with a few modifications we have turned the formalism into a tokeniser-and-morphological-analyser that will also output ambiguous tokens. Such ambiguity can then be resolved using Constraint Grammar (see next), followed by a simple reformatter that rewrites tokens that are split in two.
+Hfst only, this formalism is an extension of the xfst rewrite rules, and are a reimplementation of work by Xerox around 12 years ago. It allows for more complex text processing, and with a few modifications we have turned the formalism into a tokeniser-and-morphological-analyser that will also output ambiguous tokens. Such ambiguity can then be resolved using Constraint Grammar (see next), followed by a simple reformatter that rewrites tokens that are split in two.
 
 Using this setup it is possible to get the tokenisation almost perfect. In practice we still have some work to do, but we are already well above the alternative methods.
 
-The pmatch scripts are key to a recent addition to our infrastructure: rule-based grammar checking. We are also developing text-to-speech systems using pmatch scripts + VISLCG3 processing to turn raw text into disambiguated IPA text streams that can be fed to the synthesis engine.
+The pmatch scripts are key to a recent addition to our infrastructure: rule-based grammar checking. We are also developing text-to-speech systems using pmatch scripts + VISLCG3 processing to turn raw text into disambiguated text streams that can be fed to the synthesis engine.
 
-> For speech synthesis this means that we use rule-based technologies for everything but the actual synthesis modelling, reducing the corpus need to about 10 hours of studio recordings. That is within reach for most language communities.
+> For speech synthesis this means that we use rule-based technologies for everything but the actual synthesis modelling, reducing the corpus need to less than 10 hours of studio recordings. That is within reach for most language communities.
 
 </v-clicks>
 
@@ -708,9 +709,11 @@ The speller is exactly the same fst-based speller as described below — with sl
 
 <v-click>
 
-Lately: cooperation with Apple to develop OS-integrated keyboards for all Sámi languages:
+2023: cooperation with Apple to develop OS-integrated keyboards for all Sámi languages:
 
 <img src="/IPad-tastatur.jpeg.png" class="m-10 h-80 rounded shadow" />
+
+Nothing yet for other platforms.
 
 </v-click>
 
@@ -822,11 +825,12 @@ layout: two-cols
 <v-clicks>
 
 * morphological analyser for analysis and tokenisation
+    - normative + descriptive analyser: non-normative forms are analysed _and tagged_
 * includes disambiguation of multiword expressions
 * a tagger for whitespace errors
 * runs the spelling checker on unknown words
 * constraint grammars for both disambiguation and error detection, as well as for selecting or filtering speller suggestions based on context
-* uses valency info and semantic tags to avoid reliance on (faulty) morphology and syntax
+* uses valency info and semantic tags to avoid (too much) reliance on (faulty) morphology and syntax
 * new research coming out of this:
   * improvements to sentence border detection (near-perfect results possible)
   * improvements to tokenisation and whitespace handling - we can detect compounds erroneously written apart (not very well handled or not at all by most other grammar checkers)
@@ -853,7 +857,7 @@ layout: center
 * MS Word (web-based add-on)
 * GoogleDocs (web-based add-on)
 
-Under development (release this summer):
+Under development:
 * macOS (system wide), possibly Windows
 * LibreOffice
 * regular MS Office grammar checker for Windows and macOS
@@ -888,16 +892,21 @@ layout: two-cols
 
 ## Text-to-speech (TTS)
 
+<br/>
+<br/>
+
 <v-clicks>
 
 * Commercial, closed source since 2014 — North Sámi
-* Working on open source solution based on HFST, VislCG and ML - Lule and North Sámi
-* similar pipeline to the grammar checker to make «phonemic» IPA
+* Open source solution based on HFST, VislCG and ML: Lule, North and South Sámi
+* normaliser pipeline similar to the grammar checker
 * feeding that to the synthesis engine
 * synthesis done using machine learning / neural nets
 * 10 hours of recordings should be enough for high quality synthesis
 
 </v-clicks>
+
+::right::
 
 <div v-after>
 
@@ -909,12 +918,6 @@ North Sámi Male, 5h recordings:
   <source type="audio/wav" src="/0002_Lea-mai_FP_1000_M_univnet_nrate.wav"/>
   <p>Your browser does not support the audio element.</p>
 </audio>
-
-</div>
-
-::right::
-
-<div v-after>
 
 North Sámi female, old closed-source synthesis:
 
@@ -932,7 +935,18 @@ Same text with new, ML-based synthesis, ca 10 hours:
   <p>Your browser does not support the audio element.</p>
 </audio>
 
-And finally, Lule Sámi synthesis sample:
+</div>
+
+---
+layout: two-cols
+---
+
+## TTS (continued)
+
+<br/>
+<br/>
+
+Lule Sámi synthesis sample:
 
 > – Dálla gå dáhtámasjijnaj giella ållåsit sijdajda tjágŋá, de sijda julevsámegielak ariednán aj ájteduvvi.
 
@@ -941,7 +955,31 @@ And finally, Lule Sámi synthesis sample:
   <p>Your browser does not support the audio element.</p>
 </audio>
 
-</div>
+South Sámi synthesis sample:
+
+> – Dálla gå dáhtámasjijnaj giella ållåsit sijdajda tjágŋá, de sijda julevsámegielak ariednán aj ájteduvvi.
+
+<audio controls="controls">
+  <source type="audio/wav" src="/1_Dalla_FP_660univnet-4416.wav"/>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+
+::right::
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<v-clicks>
+
+- South Sámi developed based on 30 years old archive recordings from the Norwegian national broadcaster
+- recordings cleaned etc by us
+- released at the end of October, when the speaker would have turned 100 years old
+- voice development and release was supported and encouraged by her sons
+
+</v-clicks>
 
 ---
 layout: two-cols
@@ -952,7 +990,7 @@ layout: two-cols
 <br/>
 <br/>
 
-* experiments w/ only 35 (50?) hours of transcribed speech
+* experiments w/ only 35 hours of transcribed speech
 * Whisper model
 * very promising, given the starting point
 * first target use:
@@ -971,10 +1009,11 @@ layout: two-cols
 
 Generated transcript:
 
-> Ja Norgga __Sámiid__ Riikkasearvvis. __Eh__ mun maiddái __gehččen__ dien eh dien __dien__ eh __[totalregnskap]__ ja oidnen dan ahte __ovdamearkka__ __dihte__ Buolbmát Várggáid __dahje__ Várjjat guovllus
+> Ja Norgga _Sámiid_ Riikkasearvvis. _Eh_ mun maiddái _gehččen_ dien eh dien _dien_ eh _[totalregnskap]_ ja oidnen dan ahte _ovdamearkka_ _dihte_ Buolbmát Várggáid _dahje_ Várjjat guovllus
 
-- Errors are bold-faced
+- Errors are italicised
 - upper/lower case errors are not marked
+- example from last year (or older) - we are training a new ASR model soon
 
 ---
 layout: two-cols
@@ -1002,9 +1041,9 @@ layout: two-cols
 
 Generated transcript:
 
-> Ja mån lav badjánam __Jåhkågasska__ tjielden, danna __l__ muv mánnávuohta ja muv nuorravuohta årrum.
+> Ja mån lav badjánam _Jåhkågasska_ tjielden, danna _l_ muv mánnávuohta ja muv nuorravuohta årrum.
 
-- Errors are bold-faced
+- Errors are italicised
 - upper/lower case errors are not marked
 
 ---
@@ -1119,6 +1158,10 @@ Literal back-translation from South Sámi to English:
 - but data scarcity will always be an issue
 - most problematic: no QA on output, no consideration for unintended consequences
 
+<br/>
+
+BUT: things are developing fast, and recently an article was published that used a dictionary and an FST to improve low resource output of an LLM quite considerably.
+
 ---
 
 ## Lack of community involvement
@@ -1126,7 +1169,7 @@ Literal back-translation from South Sámi to English:
 <br/>
 <br/>
 
-- LLM builders have no connection to the language communities
+- LLM builders usually have no connection to the language communities
 - scrape the Internet, take whatever they find, releases the LLM
 - community view:
     - LLM is producing bad language, or directly wrong text
@@ -1155,7 +1198,6 @@ Literal back-translation from South Sámi to English:
 - speech synthesis: rule-based text processing, ML synthesis
 - speech recognition: ML recognition, rule-based post-processing (not tested yet)
 - MT: rule-based MT (minority to majority), ML post-processing
-    - very promisig results in first tests
 
 ---
 layout: section
@@ -1173,9 +1215,9 @@ layout: section
 
 It is important that language communities have control over language resources relating to their language, in the sense that no private entity can block access to those resources. Otherwise the society will risk vendor lock-in, and expensive redevelopment of existing tools and resources.
 
-> — Despite being aware of this, we have experienced it **twice**!
+> — Despite being aware of this, we have experienced it *twice*!
 
-The best solution is to ensure that everything is **open source**. All resources and tools in the GiellaLT infra are open source, unless forced to by software we integrate with (MS Office is one such case). Also, some language communities do not want their language to be openly accessible, due to a history of being colonialised, oppressed and their language becoming stigmatised. In such cases we of course respect their view.
+The best solution is to ensure that everything is *open source*. All resources and tools in the GiellaLT infra are open source, unless forced to by software we integrate with (MS Office is one such case). Also, some language communities do not want their language to be openly accessible, due to a history of being colonialised, oppressed and their language becoming stigmatised. In such cases we of course respect their view.
 
 ![Open Source](/opensourceimages.jpg)
 
@@ -1204,8 +1246,9 @@ The best solution is to ensure that everything is **open source**. All resources
 * solution: develop or use open source technology:
     * HFST (spellers, morphological analysers, etc)
     * speech technology
-* a major part of our technology stack is nowadays under our control
+* almost all parts of our technology stack is nowadays under our control
     * see [github.com/divvun](https://github.com/divvun)
+* … or open source
 
 </v-clicks>
 
@@ -1258,12 +1301,12 @@ Examples:
 
 <v-click>
 
-Ideas for solutions:
+Solution:
 
-* regulations
 * split language independent underlying code from language services
 * make the linguistic parts (all parts!) of a system belong to the language community
-* We need a parallel to Open Source: **Open Language**
+* We need a parallel to Open Source/Open Access: *Open Language*
+* (just presented at LT4All in Paris two days ago)
 
 </v-click>
 
