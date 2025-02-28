@@ -1162,7 +1162,9 @@ Literal back-translation from South Sámi to English:
 
 <br/>
 
-BUT: things are developing fast, and recently an article was published that used a dictionary and an FST to improve low resource output of an LLM quite considerably.
+BUT: things are developing fast, and recently an article was published that used dictionaries, grammars and FST's to improve output of an LLM for low resource languages quite considerably:
+
+> «_Hire a Linguist!_: Learning Endangered Languages in LLMs with In-Context Linguistic Descriptions»
 
 ---
 
@@ -1354,7 +1356,6 @@ Everything easily accessible in GitHub, everyone can edit and contribute.
 - Korp:  [gtweb.uit.no/korp/](http://gtweb.uit.no/korp/)
 - Machine translation: [jorgal.uit.no](http://jorgal.uit.no/)
 - Documentation: [giellalt.github.io](https://giellalt.github.io)
-
 
 <br/>
 
